@@ -94,6 +94,15 @@
           }
         ]
       }
+    },
+    "demo": {
+      "executor": "@nx-example/workspace:demo"
+    },
+    "demo2": {
+      "executor": "@nx-example/workspace:demo2"
+    },
+    "demo3": {
+      "executor": "@nx-example/workspace:demo3"
     }
   },
   "tags": ["type:app", "scope:cart"],

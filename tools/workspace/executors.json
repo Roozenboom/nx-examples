@@ -1,0 +1,19 @@
+{
+  "executors": {
+    "demo": {
+      "implementation": "./executors/demo",
+      "schema": "./executors/demo/schema.json",
+      "description": "Executor to demonstrate TS transpile error"
+    },
+    "demo2": {
+      "implementation": "./executors/demo/demo",
+      "schema": "./executors/demo/schema.json",
+      "description": "Executor to demonstrate TS transpile error"
+    },
+    "demo3": {
+      "implementation": "./executors/demo/index.impl",
+      "schema": "./executors/demo/schema.json",
+      "description": "Executor to demonstrate TS transpile error"
+    }
+  }
+}

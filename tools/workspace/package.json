@@ -1,0 +1,5 @@
+{
+  "name": "@nx-example/workspace",
+  "private": true,
+  "executors": "./executors.json"
+}
